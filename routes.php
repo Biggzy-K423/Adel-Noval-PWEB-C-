@@ -1,11 +1,11 @@
 <?php
 
 $routes = [
-    'index' => 'index.php',
-    'dashboardadmin' => 'dashboardadmin.php',
-    'tambah' => 'tambah.php',
-    'edit' => 'edit.php',
-    'hapus' => 'hapus.php',
+    'index' => 'v_login.php',
+    'dashboardadmin' => 'v_dashboardadmin.php',
+    'tambah' => 'v_tambah.php',
+    'edit' => 'v_edit.php',
+    'hapus' => 'c_hapus.php',
 ];
 
 $route = isset($_GET['route']) ? $_GET['route'] : 'index';
