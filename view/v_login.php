@@ -26,7 +26,7 @@
                 <input id="password"name="password" type="password" required>
                 <div class="error"></div>
             </div>
-            <a href="dashboardadmin.php"><button>Sign Up</button></a>
+            <a href="home/view/v_dashboardadmin.php"><button>Sign Up</button></a>
         </form>
     </div>
 </body>
